@@ -1,0 +1,207 @@
+:root {
+    --main-bg-color: #2C3d50; 
+}
+html{
+    scroll-behavior: smooth;
+}
+.bg-dar {background-color: var(--main-bg-color)!important;}
+
+
+p { color: white;}
+
+input.form-Control, textarea.form-control{
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #ccc !important;
+
+}
+
+.btn-primary {
+    border-color: #5CBDBC !important;
+    background-color: #5CBD9D !important;
+}
+footer{
+    background-color: var( --main-bg-color);
+}
+footer h3{
+    color: white;
+}
+
+
+/* ------------------------------------------INICIO BLADE --------------------------------------- */
+.header {
+      
+    height: 40rem;
+    background-color: #000;
+    background-image: url(/imagenes/2Pochutl.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.caja-titulo {
+    max-width: 25%;
+    background-color: #0D8307;
+}
+.caja-titulo h2 {
+    color: #fff;
+}
+
+p {
+    color: #000;
+    
+}
+
+
+/*   <div class="container-fluid">
+                  <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="imagenes/dep1.jpg" class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                  <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="imagenes/dep2.jpg" class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+
+
+
+  <div class="col-12 col-sm-6 col-lg-4">
+                              <div class="card" style="width: 18rem;">
+                                    <br>
+                                    <div class="card-body">
+                                          <h5 class="card-title">Departamento en centro de pochutla</h5>
+                                          <img src="{{asset('imagenes/dep1.jpg')}}"class="img-fluid">
+
+                                          <p class="card-text"> 2 unidades, 2 recamaras, cuenta con internet,agua,luz,cablevision,semi amueblado.</p>
+                                          <a href="#" class="btn btn-success">$ 2000</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                              <div class="card" style="width: 18rem;">
+                                     
+                                    <div class="card-body">
+                                          <h5 class="card-title">Departamento seccion primera en pochutla</h5>
+                                          <img src="{{asset('imagenes/dep2.jpg')}}"class="img-fluid">                                         
+                                          <p class="card-text">unidades, 1 recamaras, cuenta con internet,agua,luz,semi amueblado.</p>
+                                          <a href="#" class="btn btn-success">$ 1000</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                              <div class="card" style="width: 18rem;">
+                                     
+                                    <div class="card-body">
+                                          <h5 class="card-title">Departamento seccion cuarta en pochutla</h5>
+                                          <img src="{{asset('imagenes/dep3.jpg')}}" class="img-fluid">                                        
+                                          <p class="card-text">4 unidades, 3 recamaras, cuenta con sala.comedor,2 baños, internet,agua,luz,semi amueblado.</p>
+                                          <a href="#" class="btn btn-success">$ 30000</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                              <div class="card" style="width: 18rem;">
+                                    <div class="card-body">
+                                          <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                                          <img src="{{asset('imagenes/dep4.jpg')}}"class="img-fluid">                                     
+                                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, non?</p>
+                                          <a href="#" class="btn btn-success">$ 00000</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                              <div class="card" style="width: 18rem;">                
+                                    <div class="card-body">
+                                          <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                                          <img src="{{asset('imagenes/dep5.jpg')}}"class="img-fluid"> 
+                                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, non?</p>
+                                          <a href="#" class="btn btn-success">$ 00000</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                              <div class="card" style="width: 18rem;">                                    
+                                    <div class="card-body">
+                                          <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                                          <img src="{{asset('imagenes/dep6.jpg')}}"class="img-fluid">
+                                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, non?</p>
+                                          <a href="#" class="btn btn-success">$ 00000</a>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+    <div class="row">
+                        <div class="col-sm-3">
+                            aqui ponel el menu lataral que pedi para filtrar las casas
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="{{asset('imagenes/dep1.jpg')}}"class="img-fluid">
+                                    <p class="card-text"><small class="text-muted">mensuales $2000</small></p>
+                                </div>
+                                <div class="col-sm-8">
+                                    <h5 class="card-title">Departamento en centro de pochutla</h5>
+                                    <p class="card-text"> 2 unidades, 2 recamaras, cuenta con internet,agua,luz,cablevision,semi amueblado.</p>
+                                   <div class="posting-description go-to-posting">
+                                    Increíble residencia con amplios y acogedores espacios, estilo mexicano en un nivel. Cuenta con sala comedor con techo y pisos de madera, columnas de cantera, grandes ventanales con vista hacia la alberca y jardín, chimenea, cocina integral con isla, acabados de granito en barra, La recamara principal es muy amplia y tiene un amplio walking closet con isla con acceso al baño, mismo que cuenta con jacuzzi. Las recámaras secundarias tienen vestidor y baño propio, una de ellas cuenta con tapanco. Todos los pasillos que dan a las recámaras tienen buena iluminación y pisos de barro. Cuenta con sala de tv con muebles empotrados de madera, bar.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  */
